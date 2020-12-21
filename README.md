@@ -16,7 +16,6 @@
 - ctypes : For Title
 - requests : For Scrap information
 - os : For Clear and more
-
 ```
 
 ----
