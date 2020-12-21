@@ -1,0 +1,4 @@
+terminaltables
+colorama
+ctypes
+requests
