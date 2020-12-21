@@ -29,7 +29,7 @@ def main():
     ['IP', 'COUNTRY','STATE', 'CITY','TIMEZONE', 'PROVIDER'],
     [f'{getIpInfoResult["query"]}', f'{getIpInfoResult["country"]} {getIpInfoResult["countryCode"]}', f'{getIpInfoResult["regionName"]}', f'{getIpInfoResult["city"]}', f'{getIpInfoResult["timezone"]}', f'{getIpInfoResult["isp"]}']
     ]
-    table = AsciiTable(table_data)
+    table = SingleTable(table_data)
     print("\n" + table.table + "\n")
     input()
 
