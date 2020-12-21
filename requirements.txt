@@ -1,4 +1,4 @@
 terminaltables
 colorama
-ctypes
 requests
+ctypes
