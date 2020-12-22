@@ -1,4 +1,4 @@
-from terminaltables import AsciiTable
+from terminaltables import SingleTable
 from colorama import *
 from requests import get
 import ctypes
